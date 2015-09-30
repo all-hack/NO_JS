@@ -1,0 +1,43 @@
+.title {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #555;
+  letter-spacing: .16rem;
+}
+
+.application-section {
+  background-color: #363636; 
+  border-radius: 3px; 
+  padding: 1rem;
+  color: #FFF;
+}
+
+.really{
+	display:inline-block;
+}
+
+.two{
+	margin-top: -7.4rem; z-index:1; position:relative; display: inline-block; width: inherit;
+	color:#448AFF;
+}
+
+#in1:checked ~ .work{
+	margin-top: 1rem;
+	color: #FFF;
+	z-index: 3;
+}
+#in2:checked ~ .three{
+	margin-top: 1rem;
+	color: #FFF;
+	z-index: 4;
+}
+#in3:checked ~ .four{
+	margin-top: 1rem;
+	color: #FFF;
+	z-index: 5;
+}
+#in4:checked ~ .five{
+	color: #FFF;
+	z-index: 6;
+	margin-top: 1rem;
+}
