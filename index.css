@@ -16,9 +16,28 @@
 	display:inline-block;
 }
 
+
+
 .two{
 	margin-top: -7.4rem; z-index:1; position:relative; display: inline-block; width: inherit;
 	color:#448AFF;
+}
+
+#in0:checked + span{
+	color: green;
+}
+
+#in1:checked + span{
+	color: green;
+}
+#in2:checked + span{
+	color: green;
+}
+#in3:checked + span{
+	color: green;
+}
+#in4:checked + span{
+	color: green;
 }
 
 #in1:checked ~ .work{
